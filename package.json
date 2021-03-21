@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/BigWizzo/portfolio/issues"
   },
-  "homepage": "https://github.com/BigWizzo/portfolio#readme",
+  "homepage": "https://bigwizzo.github.io/portfolio",
   "devDependencies": {
     "babel-eslint": "10.1.x",
     "clean-webpack-plugin": "^3.0.0",
