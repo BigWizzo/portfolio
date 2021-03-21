@@ -1,0 +1,301 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ */
+
+@import "bootstrap";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.h2-title {
+  color: hsla(234, 87%, 50%, 0.438);
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-17 {
+  font-size: 17px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+/* // styles */
+.br-50 {
+  border-radius: 50%;
+}
+
+.c-hd {
+  font-size: 14px;
+}
+
+.circle-rec-1 {
+  width: 13vw;
+  height: 28vw;
+  background: hsla(234, 87%, 50%, 0.24);
+  top: 42vh;
+  left: 0vw;
+  transform: translate(40%, 40%);
+}
+
+.circle-small-2 {
+  width: 25vw;
+  height: 25vw;
+  background: hsla(211, 100%, 50%, 0.466);
+  top: 3vw;
+  right: 1vw;
+}
+
+.circle-small-3 {
+  width: 15vw;
+  height: 15vw;
+  background: hsla(234, 87%, 50%, 0.24);
+  top: 15vw;
+  right: 15vw;
+}
+
+.circle-small-4 {
+  width: 6vw;
+  height: 6vw;
+  background: hsla(211, 100%, 50%, 0.466);
+  top: 5vw;
+  left: 10vw;
+}
+
+.circle-small-5 {
+  width: 4vw;
+  height: 4vw;
+  background: hsla(234, 87%, 50%, 0.24);
+  top: 4vw;
+  left: 14vw;
+}
+
+.sty-pos1 {
+  top: 0;
+  left: 0;
+}
+
+.box-dw {
+  box-shadow: 0px 1px 5px 1px silver;
+}
+
+/* // colors */
+.bg {
+  background-color: #f4f5f7;
+}
+
+.bg-blue {
+  background: #6070ff;
+}
+
+.tag-bg-blue {
+  background: #ebebff;
+}
+
+.tag-blue {
+  color: #6070ff;
+}
+
+.bg-lang {
+  background: #7272ec;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.header {
+  height: 90vh;
+  border-radius: 0 0 0 100px;
+}
+
+.header-wrapper {
+  padding: 100px;
+  width: 75%;
+}
+
+.hd-circle-1 {
+  position: absolute;
+  width: 5vw;
+  height: 4vw;
+  border-radius: 50%;
+  background: hsla(234, 87%, 50%, 0.1);
+}
+
+.sty-pos1 {
+  top: 0;
+  left: 0;
+}
+
+.pro-section {
+  width: 80%;
+}
+
+.pro-img-wrapper {
+  height: 300px;
+  background: url(./assets/projects/shore.png);
+  /* border: 1px solid #000000; */
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.lang-span {
+  padding: 4px 12px;
+  margin: 8px 0px;
+  border-radius: 8px;
+}
+
+.about-my {
+  min-height: 65vh;
+  border-radius: 0 100px 0 0;
+  /* background: yellow; */
+}
+
+.about-wrapper {
+  padding: 100px;
+}
+
+.set {
+  margin: 1px;
+}
+
+.ft-inner {
+  border-radius: 100px 0 0 0;
+}
+
+.form-div-inner {
+  width: 50%;
+}
+
+/* // Medium devices (tablets, 992px and down) */
+@media (max-width: 991px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .h2-title {
+    font-size: 27px;
+  }
+
+  .c-hd {
+    font-size: 13px;
+  }
+
+  .header-wrapper {
+    padding: 100px;
+    width: 100%;
+  }
+
+  .pro-section {
+    width: 95%;
+  }
+
+  .pro-title {
+    font-size: 18px;
+  }
+
+  .pro-stack {
+    font-size: 12px;
+  }
+
+  .pro-content {
+    font-size: 13px;
+  }
+
+  .pro-lang {
+    font-size: 12px;
+  }
+
+  .lang-span {
+    padding: 2px 11px;
+  }
+
+  .pro-btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .about-wrapper {
+    padding: 20px;
+  }
+
+  .form-div-inner {
+    width: 65%;
+  }
+}
+
+/* // Small devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  .form-div-inner {
+    width: 75%;
+  }
+}
+
+/* // Very smaller devices (tablets, 768px and down) */
+@media (max-width: 576px) {
+  .form-div-inner {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .h2-title {
+    font-size: 18px;
+  }
+
+  .c-hd {
+    font-size: 12px;
+  }
+}
