@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("function hello(){\n  const bodyContent = document.getElementById('body');\n  bodyContent.textContent = 'Hello World'\n}\n\nhello();\n\n//# sourceURL=webpack://portfolio/./src/index.js?");
+eval("function hello(){\n  // const bodyContent = document.getElementById('body');\n  // bodyContent.textContent = 'Hello World'\n}\n\nhello();\n\n//# sourceURL=webpack://portfolio/./src/index.js?");
 
 /***/ })
 
