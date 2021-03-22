@@ -10,7 +10,6 @@ module.exports = {
   entry: {
     index: './src/index.js',
   },
-  watch: true,
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
