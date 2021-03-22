@@ -2,7 +2,7 @@
 
 # Web Development Portfolio
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.jpg)
 
 - This portfolio showcases the projects I have built.
 - The portfolio site is built using JS and Bootstrap using Webpack.
